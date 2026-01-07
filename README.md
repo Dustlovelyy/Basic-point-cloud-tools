@@ -1,8 +1,13 @@
 # Basic-point-cloud-tools
-Just some tools might used in Point Cloud Completion... for personal sharing of some utils during my study.
+Just some tools might used in Point Cloud Completion... for personal sharing of some utils during my study👨‍🎓.
 
 If it works on my PC, then it works.
 ~~Not guaranteed to be 100% correct.~~
+😿
+
+🚧
+This page will keep being updated and under construction.
+If you find any bugs, mistakes, or have better ideas, feel free to have a little chat with me👷‍♂️🚧.
 #
 I will introduce this section using language that is as concise, comprehensive, and intuitive as possible, regardless of whether you have prior experience with point clouds or other 3D spatial data.
 ## Farthest Point Sampling (FPS)
@@ -21,3 +26,5 @@ I define three functions in this file.
 farthest_point_sample and farthest_point_sample_batch are standard FPS implementations.
 
 farthest_voxel_points_samplings is a ***voxel-based*** FPS, which adjusts the downsampling rate in different voxels and usually shows better results when dealing with ***non-uniform*** point cloud data, but it is much ***slower*** because it relies on Open3D, which only runs on the CPU.
+## K-Nearest Neighbors (KNN)
+***KNN*** is a simple yet widely used supervised learning algorithm for classification and regression tasks.
