@@ -4,6 +4,7 @@ just some tools might used in Point Cloud Completion.. hopefully works well.
 I will introduce this section using language that is as concise, comprehensive, and intuitive as possible, regardless of whether you have prior experience with point clouds or other 3D spatial data.
 #
 Farthest Point Sampling (FPS)
+
 FPS stands for Farthest Point Sampling, and it is one of the most commonly used downsampling methods for point clouds.
 
 The basic idea is very simple. First, you start by choosing a point A from the point set. This point can be selected randomly, or you can fix it in advance — both choices are acceptable. Then, you compute the distances between point A and all the remaining points in the point cloud, and select the point B that has the largest distance to point A.
